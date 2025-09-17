@@ -1,0 +1,49 @@
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  --vt-c-black: #1A1A1A;
+
+  --vt-c-text-dark: #262626;
+  --vt-c-text-light: #E6E6E6;
+
+  --vt-c-green-50: #9EFF00;
+  --vt-c-primary-hover: #262626;
+
+  --vt-c-gray-10: #1A1A1A;
+  --vt-c-gray-15: var(--vt-c-text-dark);
+  --vt-c-gray-20: #333333;
+  --vt-c-gray-30: #4C4C4D;
+}
+
+/* semantic color variables for this project */
+:root {
+  --color-background: var(--vt-c-black);
+  --color-button: var(--vt-c-green-50);
+  --color-text: var(--vt-c-text-light);
+}
+
+body {
+  color: var(--color-text);
+  background: var(--color-background);
+  font-family: Barlow, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button, input, select, textarea {
+  font: inherit;
+}
+
+* {
+  max-width: 1920px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
