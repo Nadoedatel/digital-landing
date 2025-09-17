@@ -19,7 +19,7 @@ defineProps<{
 }
 
 .btn.gray {
-  border: var(--vt-c-gray-20);
+  border:1px solid var(--vt-c-gray-20);
   background-color: rgba(36, 36, 36, 0.2);
   backdrop-filter: blur(10px);
   color: var(--vt-c-text-light);

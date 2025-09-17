@@ -56,11 +56,11 @@ import Button from "@/components/ui/Button/Button.vue";
 }
 
 .out__title {
-  font-size: 48px;
+  font-size: var(--font-size-h1);
 }
 
 .out__paragraph {
-  font-size: 18px;
+  font-size: var(--font-size-p);
 }
 
 .card__container {

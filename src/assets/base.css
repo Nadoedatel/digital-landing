@@ -6,6 +6,7 @@
   --vt-c-text-light: #E6E6E6;
 
   --vt-c-green-50: #9EFF00;
+  --vt-c-green-80: #D8FF99;
   --vt-c-primary-hover: #262626;
 
   --vt-c-gray-10: #1A1A1A;
@@ -19,6 +20,11 @@
   --color-background: var(--vt-c-black);
   --color-button: var(--vt-c-green-50);
   --color-text: var(--vt-c-text-light);
+}
+
+:root {
+  --font-size-h1: 48px;
+  --font-size-p: 18px;
 }
 
 body {

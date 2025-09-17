@@ -54,7 +54,7 @@ import Button from "@/components/ui/Button/Button.vue";
   border-radius: 12px;
   background-color: rgba(36, 36, 36, 0.2);
   backdrop-filter: blur(10px);
-  border: var(--vt-c-gray-15);
+  border:1px solid var(--vt-c-gray-15);
   gap: 6px;
 }
 
