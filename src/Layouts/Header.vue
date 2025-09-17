@@ -1,6 +1,6 @@
 <script setup lang="ts">
 
-import Button from "@/components/Button/Button.vue";
+import Button from "@/components/ui/Button/Button.vue";
 </script>
 
 <template>
@@ -38,7 +38,7 @@ import Button from "@/components/Button/Button.vue";
         </nav>
       </div>
       <div>
-        <Button class="btn-contact">Contact Us</Button>
+        <Button color="green">Contact Us</Button>
       </div>
   </header>
 </template>
@@ -87,12 +87,5 @@ ul li {
 
 ul li:hover {
   background-color: var(--vt-c-primary-hover);
-}
-
-.btn-contact {
-  font-size: 18px;
-  padding: 16px 24px;
-  border-radius: 8px;
-  background-color: var(--color-button);
 }
 </style>
